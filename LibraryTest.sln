@@ -7,6 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLibrary", "MyLibrary\MyLi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyProject", "MyProject\MyProject.vcxproj", "{FEBF4596-0F98-4E94-8D8F-9F96A20F558A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{5D0E0EF1-A501-4439-BF12-F2BA7BA2D9B6}"
+	ProjectSection(SolutionItems) = preProject
+		x64\Debug\MyProject.exe = x64\Debug\MyProject.exe
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "MathLibrary\MathLibrary.vcxproj", "{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +38,14 @@ Global
 		{FEBF4596-0F98-4E94-8D8F-9F96A20F558A}.Release|x64.Build.0 = Release|x64
 		{FEBF4596-0F98-4E94-8D8F-9F96A20F558A}.Release|x86.ActiveCfg = Release|Win32
 		{FEBF4596-0F98-4E94-8D8F-9F96A20F558A}.Release|x86.Build.0 = Release|Win32
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Debug|x64.ActiveCfg = Debug|x64
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Debug|x64.Build.0 = Debug|x64
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Debug|x86.Build.0 = Debug|Win32
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Release|x64.ActiveCfg = Release|x64
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Release|x64.Build.0 = Release|x64
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Release|x86.ActiveCfg = Release|Win32
+		{AEE32B4E-9A46-4B34-A1F6-A96B3C38E90F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
