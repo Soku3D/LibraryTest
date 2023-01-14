@@ -1,7 +1,7 @@
 #pragma once
 
 namespace Son {
-	static double TestAddFunction(double a, double b);
+	double TestAddFunction(double a, double b);
 
 	class TestClass {
 	public:
