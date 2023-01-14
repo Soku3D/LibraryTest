@@ -1,3 +1,3 @@
 # LibraryTest
 
-## dll, lib 테스트
+## dll & lib 테스트
